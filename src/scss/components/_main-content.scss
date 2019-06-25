@@ -1,0 +1,32 @@
+.main-content{
+    color:#ffffff;
+    background: url("../img/mac.png");  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__style-bond__size-mode_main{
+      
+        padding-top: 30px;
+        padding-bottom: 22px;
+        }
+        
+        &__style-bond{
+         font-style: normal;
+         font-weight: bold;
+         font-size: 48px;
+         padding-top: 24px;
+         padding-bottom: 16px;
+        }
+        
+        &__style-middle{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 72px;
+        }
+
+
+
+
+    
+    }
