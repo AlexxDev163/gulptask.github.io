@@ -5,21 +5,23 @@
     vertical-align: middle;
     color: #ffffff; 
     
-
-    &__style-bond__size-mode_footer{
-        margin: 0;
-        padding: 0px;
+   &__bond_strong{
+        height: 61px;
+        padding-top: 3px;
+        padding-bottom: 23px;
         }
         
-        &__style-middle{
+        &__middle{
         font-style: normal;
         font-weight: 300;
         font-size: 48px;
-      
+        line-height: 72px;
+        }
+        
         }
 
 
-    } 
+
     
 
         

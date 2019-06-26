@@ -4,13 +4,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    &__style-bond__size-mode_main{
-      
+        &__bond_strong{
         padding-top: 30px;
         padding-bottom: 22px;
         }
         
-        &__style-bond{
+        &__bond{
          font-style: normal;
          font-weight: bold;
          font-size: 48px;
@@ -18,15 +17,17 @@
          padding-bottom: 16px;
         }
         
-        &__style-middle{
+        &__middle{
         font-style: normal;
         font-weight: 300;
         font-size: 48px;
         line-height: 72px;
+        }
+        
         }
 
 
 
 
     
-    }
+   

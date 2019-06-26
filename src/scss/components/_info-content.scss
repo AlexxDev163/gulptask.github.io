@@ -9,25 +9,19 @@
         &:hover{
           text-decoration: none;
           color: red;
-        }
-      }
-
-    &__style-bond__size-mode_info{
-       
-        padding-top: 9px;
-        padding-bottom: 21px;
-        }
-        &__style-middle{
-            font-style: normal;
-            font-weight: 300;
-            font-size: 48px;
-            line-height: 72px;
+        }}
+        &__middle{
+          font-style: normal;
+          font-weight: 300;
+          font-size: 48px;
+          line-height: 72px;
+          } 
+          &__bond_strong{
+            padding-top: 9px;
+            padding-bottom: 21px;
             }
-
-
-
-    }
-    
+   
+          }
 
 
 
