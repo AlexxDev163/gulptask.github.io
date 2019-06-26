@@ -1,12 +1,13 @@
 .header{
   background: #FFFFFF;
-  padding-bottom:28px;
 
+  
   a{
     text-decoration: none;
+    color: black;
     &:hover {
       text-decoration: none;
-      color: red;
+    
       }
     }
     &__bond_strong{
@@ -38,3 +39,4 @@
       }
 
     }
+    
