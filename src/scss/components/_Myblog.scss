@@ -1,0 +1,64 @@
+.Myblog {
+    background-color:yellow;
+
+    &__item_strong{ 
+        
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 70px;
+        font-size: 48px;
+        font-weight: bold;
+        font-style: normal;
+        
+    }
+}
+
+@mixin subject (){
+
+    &_title{
+        font-weight: bold;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }   
+
+    &_item{
+        font-size: 18px;
+        font-weight: bold;
+        padding-top:23px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    &_date{
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+        
+        &_border{
+        color:#000000;
+        margin-bottom: 50px;
+        border:none;
+        background-color:black; 
+        height: 2px;
+    }
+}
+ 
+
+.Myblog__subject1{
+    @include subject();
+        
+    }
+
+ .Myblog__subject2 {
+        @include subject();
+        &_img{
+            background: URL("./img/myblog2.png");
+            width: 655;
+            height:409;
+        }
+        
+        }
+        
+        

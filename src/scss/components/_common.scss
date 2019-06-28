@@ -1,9 +1,14 @@
+
 .container{
-  width: 1180px;
+  width: 1140px;
   margin: 0 auto;
   padding: 20px;
   }
   
+  h1, p{
+    margin: 0;
+  }
+
   p{
   margin: 0;
   }
@@ -12,9 +17,10 @@
     &:hover{
       text-decoration: none;
   }
+}
 
   body{
-  font-family: "open Sans Condensed";
-  margin: 0 auto;
+  font-family: "Open Sans Condensed";
+  margin: 0 ;
   }
-  }
+  
