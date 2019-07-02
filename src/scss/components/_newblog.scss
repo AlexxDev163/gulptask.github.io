@@ -1,0 +1,40 @@
+.newblog {
+    background: #F2F2F2;
+
+    &__title{
+        color: black;
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 75px;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 54px;
+    }
+
+    &__content{
+        color: black;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button{
+        font-family: 'Bebas Neue';
+        display: flex;
+        justify-content:center;
+    }
+
+    &__button_strong{
+        background: #FFE01B;
+        border:none;
+        align-items: center;
+        width: 278px;
+        height: 44px;
+        margin-top: 59px;
+        margin-bottom:62px;
+    }
+
+
+}

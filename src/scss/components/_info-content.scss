@@ -1,31 +1,61 @@
-.info-content{
-    color: #ffffff;
-    background: #23374F;
+.info{
+    
+    background: #FFE01B;
+    color: #000000;
+    align-items: center;
     text-align: center;
-    vertical-align: middle;
-   
 
-    a{
-        text-decoration: none;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__content_strong{ 
+        font-style: normal;
+        font-weight: bold;
+        margin: 0;
+        padding-top: 33px;
+        font-size: 48px;
+        padding-bottom: 30px;
+        
+
+    }
+
+    &__content_img {
+        margin-bottom: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 171px;
+        background: #343434;
+        
         &:hover{
-          text-decoration: none;
-          
-        }}
-        &__middle{
-          font-style: normal;
-          font-weight: 300;
-          font-size: 48px;
-          line-height: 72px;
-          } 
-          &__bond_strong{
-            padding-top: 9px;
-            padding-bottom: 21px;
-            }
+            background-color: #000000;
+            
+        }
+    }
+    
+    .phoneimg{
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        right: 380px;
+        bottom: 75px;
+        background:  #FF6969;
+        border-radius: 50px;
+        vertical-align: middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+    
+    
    
-          }
-
-
-
-
-
+ 
+    
+}
     

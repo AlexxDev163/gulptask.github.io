@@ -1,33 +1,65 @@
 .main-content{
-    color:#ffffff;
-    background: url("../img/car.png");  
+  
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./img/maincontent.png") ;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #FFFFFF;
 
-        &__bond_strong{
-        padding-top: 30px;
-        padding-bottom: 22px;
-        }
-        
-        &__bond{
-         font-style: normal;
-         font-weight: bold;
-         font-size: 48px;
-         padding-top: 24px;
-         padding-bottom: 16px;
-        }
-        
-        &__middle{
+    &__title{
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 75px;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+}
+
+.main-content__info{
+    display: flex;
+    
+
+
+    &__img{
+        width: 280px;
+        height: 265px;
+        background: url("./img/portret.png");
+        margin-right: 20px;
+        margin-bottom: 70px;
+    }
+    
+    &__text{
+        max-width: 880px;
+        font-family: "Open Sans Condensed";
         font-style: normal;
         font-weight: 300;
-        font-size: 48px;
-        line-height: 72px;
-        }
+        font-size: 20px;
+        line-height: 27px;
         
+        &__text_button{
+            &:hover {
+                background-color: #ECCC00;
+            }
+            &:active{
+                background: #FFEB6C;
+            }
+
+            border:none;
+            font-family: 'Bebas Neue';
+            font-size: 18px;
+            line-height: 24px;
+           
+            display: flex;
+            text-align: center;
+            margin-top: 32px;
+            width: 127px;
+            height: 44px;
+            background: #FFE01B;
+            
+
         }
-
-
-
-
-    
-   
+      
+    }
+}

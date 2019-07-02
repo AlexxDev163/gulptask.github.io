@@ -1,0 +1,64 @@
+.news{
+    width: 380px;
+    height: 486px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.07);
+
+    &__img{
+        max-width: 380px;
+        height: 185px;
+        background: url("./img/pic.png");
+    }
+    &__title{
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 15px;
+        margin-left: 21.11px; 
+    }
+
+    &__text{
+        max-width: 335px;
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        margin-left: 21.11px; 
+        margin-top: 10px;
+       
+    }
+
+    &__bottom{
+        max-width: 335px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__button{
+        font-family: 'Bebas Neue';
+        border:none;
+        margin-top: 47px;
+        max-width: 200px;
+        height: 44px;
+        background: #FFE01B;
+        margin-left: 21.11px;
+        font-size: 14px;
+        line-height: 24px;
+       
+    }
+
+    &__date{
+        margin-top: 55px;
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        
+    }
+
+}
