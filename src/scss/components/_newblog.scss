@@ -21,20 +21,37 @@
     }
 
     &__button{
-        font-family: 'Bebas Neue';
+        font-family: 'Bebas Neue', sans-serif;
+        border:none;
         display: flex;
         justify-content:center;
+        color: black;
+        text-align: center;
     }
 
-    &__button_strong{
-        background: #FFE01B;
+    &__button_bold {
+        display: flex;
+        justify-content:center;
+
+        &:hover {
+            background-color: #ECCC00;
+            text-decoration: none;
+        }
+        &:active{
+            background: #FFEB6C;
+            color: 000;
+            border:none;
+        }
+        width: 268px;
+        font-size: 18px;
+        line-height: 18px;
         border:none;
         align-items: center;
-        width: 278px;
-        height: 44px;
+        background: #FFE01B;
         margin-top: 59px;
-        margin-bottom:62px;
+        margin-bottom:60px;
+        padding-top: 13px;
+        padding-bottom: 7px;
     }
-
 
 }

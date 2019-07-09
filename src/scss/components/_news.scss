@@ -9,6 +9,7 @@
         height: 185px;
         background: url("./img/pic.png");
     }
+
     &__title{
         font-family: "Open Sans Condensed";
         font-style: normal;
@@ -35,21 +36,43 @@
         max-width: 335px;
         display: flex;
         justify-content: space-between;
-
     }
 
     &__button{
-        font-family: 'Bebas Neue';
-        border:none;
-        margin-top: 47px;
-        max-width: 200px;
-        height: 44px;
-        background: #FFE01B;
-        margin-left: 21.11px;
-        font-size: 14px;
-        line-height: 24px;
-       
-    }
+
+        &__button_bold { 
+            display: flex;
+            justify-content:center;
+        }
+
+
+&:hover {
+            
+    background-color: #ECCC00;
+}
+
+&:active{
+    border:none;
+    background: #FFEB6C;
+    color: 000;
+}
+
+display: flex;
+justify-content: center;
+color: black;
+align-items: center;
+font-family: 'Bebas Neue', "sans-serif";
+border:none;
+margin-top: 47px;
+width: 214.77px;
+height: 44px;
+background: #FFE01B;
+margin-left: 21.11px;
+font-size: 18px ;
+line-height: 24px;
+
+}
+
 
     &__date{
         margin-top: 55px;

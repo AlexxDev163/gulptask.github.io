@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFFFFF;
+    
 
     &__title{
         font-family: "Open Sans Condensed";
@@ -17,49 +18,52 @@
     }
 }
 
-.main-content__info{
-    display: flex;
+     .main-content__info{
+      display: flex;
     
-
-
-    &__img{
-        width: 280px;
-        height: 265px;
-        background: url("./img/portret.png");
-        margin-right: 20px;
-        margin-bottom: 70px;
-    }
-    
-    &__text{
-        max-width: 880px;
-        font-family: "Open Sans Condensed";
+    &_text{
+        font-family: "Open Sans Condensed" !important;
         font-style: normal;
         font-weight: 300;
         font-size: 20px;
         line-height: 27px;
-        
-        &__text_button{
-            &:hover {
-                background-color: #ECCC00;
-            }
-            &:active{
-                background: #FFEB6C;
-            }
-
-            border:none;
-            font-family: 'Bebas Neue';
-            font-size: 18px;
-            line-height: 24px;
-           
-            display: flex;
-            text-align: center;
-            margin-top: 32px;
-            width: 127px;
-            height: 44px;
-            background: #FFE01B;
-            
-
-        }
-      
+        padding-left:20px;
     }
-}
+       
+      
+        &__button {
+                display: flex;
+                color: black;
+
+                &:hover {
+            
+                    background-color: #ECCC00;
+                }
+                &:active{
+                    background: #FFEB6C;
+                    color: 000;
+                }
+
+                border:none;
+                font-family: 'Bebas Neue', "sans-serif";
+                font-size: 20px;
+                line-height: 24px;
+               
+                display: flex;
+                text-align: center;
+                margin-top: 57px;
+                width: 127px;
+                background: #FFE01B;
+            }
+
+            &__button_text{
+                display: flex;
+                justify-content:center;
+                font-family: "Bebas Neue";
+                font-size: 24px;
+                line-height: 24px;
+                }
+            }
+
+      
+    
