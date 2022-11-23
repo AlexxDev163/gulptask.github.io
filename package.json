@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/ducker-dev/ducker-dev.github.io.git",
   "dependencies": {
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.27.10",
     "del": "^4.1.1",
     "gulp": "^4.0.1",
     "gulp-autoprefixer": "^6.1.0",
